@@ -31,3 +31,8 @@ for (item of hogwartsHouses){
 
 //6
 const quote = ["Yer", "A", "Wizard", "Harry"]
+let sentence = "";
+while (quote !== sentence){
+  console.log(quote.join(" "));
+  break;
+}
